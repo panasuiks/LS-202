@@ -1,0 +1,111 @@
+/* General */
+    html,
+    body {
+      font: 28px Helvetica, Arial, sans-serif;
+      margin: 8px;
+    }
+
+    article {
+      border: 2px solid black;
+      box-sizing: border-box;
+      padding: 10px 15px 15px 15px;
+      width: 680px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    /* Alignment */
+
+    p {
+      margin: 0;
+    }
+
+    dt,
+    dd,
+    dl {
+      display: inline-block;
+      margin: 0;
+    }
+
+    td,
+    th {
+      box-sizing: border-box;
+      text-align: left;
+    }
+
+    .indent {
+      width: 1em;
+    }
+
+    footer table thead td:first-child {
+      text-indent: -0.7rem;
+      padding: .5rem 0 .5rem .7rem;
+    }
+
+    article>table tr td:last-of-type {
+      text-align: right;
+    }
+
+    /* Font */
+
+    em {
+      font-style: italic;
+    }
+
+    article>table tr td:first-child dt {
+      font-weight: bold;
+    }
+
+    footer thead {
+      font-size: .9rem;
+    }
+
+    footer tbody {
+      font-size: .8rem;
+    }
+
+    article>table tbody tr td:last-of-type {
+      font-weight: bold;
+    }
+
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    /* Borders */
+
+    h2 {
+      font-size: 100%;
+      font-weight: bold;
+      border-top: 30px solid black;
+    }
+ 
+    footer tbody tr:nth-child(2) {
+      border-top: 1px solid black;
+    }
+
+    article>table tfoot tr:first-of-type {
+      border-top: 20px solid black;
+    }
+
+    article>table tbody tr:first-of-type {
+      border-top: 20px solid black;
+    }
+
+    article>table td,
+    article>table th {
+      border-top: 1px solid black;
+      /* border-bottom: 1px solid black; */
+    }
+
+    footer table thead tr:first-child td {
+      border-top: 1px solid black;
+    }
+
+    .indent {
+      border: none;
+    }

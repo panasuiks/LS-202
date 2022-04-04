@@ -1,0 +1,29 @@
+body {
+  margin-left: 25px;
+  color: black;
+}
+
+ul {
+  padding-left: 0;
+}
+
+#afternoon-heading {
+  color: blue;
+}
+
+#evening-heading {
+  color: purple;
+}
+
+.morning {
+  font-weight: bold;
+}
+
+.afternoon {
+  font-style: italic;
+}
+
+li {
+  list-style: none;
+  font-family: Helvetica, "Arial" , sans-serif
+}

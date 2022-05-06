@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>your page title goes here</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+      color: white;
+      font-family: arial;
+    }
+
+    article {
+      background: rgb(77, 76, 76);
+      padding: 10px;
+      margin: 0px;
+      max-width: 1000px;
+      display: grid;
+      grid: repeat(4, 1fr), repeat(5, 1fr);
+      grid-template-areas:
+        "header header header header"
+        "primary primary primary primary"
+        "first second third fourth";
+      column-gap: 10px;
+      row-gap: 10px;
+    }
+
+    figure {
+      margin: 0;
+      grid-area: primary;
+      padding: 0 0 10px 0;
+    }
+
+    figure img {
+      background-color: white;
+      padding: 10px;
+    }
+
+    img {
+      background-color: white;
+      padding: 5px;
+      width: 100%;
+    }
+
+    h1 {
+      font-style: sans-serif;
+      grid-area: header;
+      text-align: center;
+    }
+
+    @media screen and (max-width: 900px) {
+      article {
+        grid: repeat(3, 1fr), repeat(5, 1fr);
+        grid-template-areas:
+          "header header header"
+          "primary primary primary"
+      }
+    }
+
+    @MEDIA screen and (max-width: 600px) {
+      article {
+        grid: repeat(2, 1fr), repeat(5, 1fr);
+        grid-template-areas:
+          "header header"
+          "primary primary"
+      }
+    }
+
+    @MEDIA screen and (min-width: 1280px) {
+      article {
+        grid: repeat(12, 1fr), 950px 1fr;
+        grid-template-areas:
+          "header header"
+          "primary other"
+          "primary other"
+          "primary other"
+          "primary other"
+          "primary other"
+          "primary other"
+          "primary other"
+          "primary other"
+          "primary other"
+          "primary other"
+          "primary other"
+          "primary other";
+        max-width: 100%;
+      }
+      figure img {
+        width: 950px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <article>
+    <h1>My Photo Gallery</h1>
+    <figure id="main">
+      <img src="1200x900.png" alt="stock photo">
+      <figcaption>Example Photo</figcaption>
+    </figure>
+    <img src="1200x900.png" alt="stock photo">
+    <img src="1200x900.png" alt="stock photo">
+    <img src="1200x900.png" alt="stock photo">
+    <img src="1200x900.png" alt="stock photo">
+    <img src="1200x900.png" alt="stock photo">
+    <img src="1200x900.png" alt="stock photo">
+    <img src="1200x900.png" alt="stock photo">
+    <img src="1200x900.png" alt="stock photo">
+    <img src="1200x900.png" alt="stock photo">
+    <img src="1200x900.png" alt="stock photo">
+    <img src="1200x900.png" alt="stock photo">
+    <img src="1200x900.png" alt="stock photo">
+  </article>
+
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+@import url("reset.css");
+
+body {
+  font: normal 18px "Roboto Condensed", sans-serif;
+  color: #3e606f;
+  margin: 0 70px 38px 70px;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 960px;
+}
+
+html {
+  background-image: linear-gradient(to bottom, #d1dbbe, #fcfff5);
+  background-repeat: no-repeat;
+  width: min-content;
+  height: 1400px;
+}
+
+article {
+  padding: 30px 30px 48px 30px;
+  display: grid;
+  grid-template-columns: 1fr 330px;
+  grid-template-areas:
+    "pic1 pic1"
+    "text1 text1"
+    "text2 pic2";
+    grid-gap: 0;
+}
+
+h2 {
+  padding-top: 40px;
+  padding-bottom: 27px;
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 1em;
+}
+
+p {
+  padding-bottom: 22px;
+  line-height: 1.25em;
+}
+
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 547px;
+}
+
+#icon {
+  display: flex;
+  padding-left: 20px;
+  height: 140px;
+}
+
+#logo {
+  padding: 20px 0;
+}
+
+#top {
+  padding: 64px 0 0 10px
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 100;
+  color: #193441
+}
+
+nav {
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.link {
+  height: 45px;
+  width: 128px;
+  margin-right: 5px;
+  background-color: #fcfff5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #91aa9d;
+  text-decoration: none;
+  border-radius: 10px 10px 0 0;
+}
+
+.link:hover {
+  color: #fcfff5;
+  background-color: #91aa9d;
+}
+
+main {
+  background-color: white;
+  box-shadow: 0 4px 3px 0 rgb(177, 177, 177);
+}
+
+#masthead {
+  grid-area: pic1;
+}
+
+#first {
+  grid-area: text1;
+}
+
+#second {
+  grid-area: text2;
+  padding-right: 30px;
+}
+
+footer {
+  padding-top: 16px;
+  font-size: 14px;
+}

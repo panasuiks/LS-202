@@ -1,0 +1,63 @@
+@import url("reset.css");
+
+html {
+  font: 20px 'Nunito Sans', sans-serif;
+  color: #45494d;
+}
+
+html, header, h1, h2, h3, address {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  max-width: 1000px;
+  padding: 143px 0px;
+  background-image: url(source/bg_body.gif);
+}
+
+article {
+  background-color: #fff;
+  padding-bottom: 10px;
+}
+
+header {
+  padding: 16px 0 93px 0;
+}
+
+h2 {
+  line-height: 1;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 109px 0 27px 0;
+}
+
+p {
+  padding: 0 9% 57px 9%;
+  text-align: center;
+}
+
+h3 {
+  line-height: 1;
+  padding: 4px 0 25px 0;
+  font-size: 24px;
+  color: #3e98b2;
+}
+
+address > * {
+  padding: 35px 61px 26px 61px
+}
+
+
+footer {
+  background-color: #e7e7e7;
+}
+
+
+
+
+
+
+
+
+

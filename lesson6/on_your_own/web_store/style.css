@@ -1,0 +1,65 @@
+@import url("reset.css");
+
+body {
+  margin: 0 40px;
+  max-width: 980px;
+  background-color: #ffd505;  
+}
+
+ul {
+  display: grid;
+  column-gap: 17px;
+  row-gap: 17px;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
+figure {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+figcaption {
+  width: 100%;
+  padding-left: 18px;
+}
+
+
+main {
+  background-color: #ececec;
+  padding: 32px 25px 42px;
+}
+
+header {
+  background-color: blue;
+}
+
+h1 {
+  padding: 36px 0 36px 26px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  padding-bottom: 32px;
+}
+
+img {
+  height: 145px;
+}
+
+
+
+
+
+
+

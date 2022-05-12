@@ -1,0 +1,147 @@
+@import url("reset.css");
+
+html {
+  font: 20px 'Avenir', sans-serif;
+  color: #45494d;
+}
+
+html, nav, header, h1, h2, h3, address, article, figure {
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+}
+
+nav {
+  padding-top: 126px;
+  flex-basis: 100%;
+}
+
+nav * {
+  font-size: 26px;
+  color: #cacaca;
+  text-decoration: none;
+  padding: 0 44px;
+}
+
+nav .current {
+  font-weight: bold;
+  color: #6db9ff;
+}
+
+body {
+  max-width: 1200px;
+  background-image: url(source/images/bg_body.gif);
+}
+
+article {
+  padding: 77px 8% 0;
+}
+
+main {
+  padding: 45px 0 54px;
+  background-color: #fff;
+}
+
+header {
+  padding: 135px 0 50px 0;
+}
+
+h2 {
+  flex-basis: 100%;
+  line-height: 1;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 0 0 44px 0;
+}
+
+p {
+  padding-top: 9px;
+  text-align: center;
+}
+
+article p {
+  padding: 0 10%;
+}
+
+h3 {
+  flex-basis: 100%;
+  line-height: 1;
+  padding: 0 0 10px;
+  font-size: 24px;
+  color: #3e59b2;
+}
+
+address {
+  justify-content: space-between;
+  padding-top: 43px;
+}
+
+article figure {
+  padding: 36px 0 60px;
+
+}
+
+h2 figure {
+ padding-bottom: 0;
+ width: 100%;
+}
+
+footer {
+  padding: 80px 27% 78px;
+  background-color: #e7e7e7;
+  color: #b1b1b1;
+}
+
+.logo_footer {
+  background: url(source/images/icons_social-media.png);
+  height: 46px;
+  width: 46px;
+}
+
+#logo_facebook {
+  background-position: 0 -46px;
+}
+
+#logo_email {
+  background-position: 0 -92px;
+}
+
+#logo_instagram {
+  background-position: 0 -138px;
+}
+
+#headshot_container {
+  padding: 0;
+  margin: 0;
+}
+
+figcaption {
+  text-align: center;
+  flex-basis: 100%;
+  padding: 29px 0 0;
+}
+
+.headshot {
+  padding: 117px 29px 163px;
+  width: 140px;
+}
+
+.headshot img {
+  width: 140px;
+  height: 152px;
+}
+
+article#home_bottom {
+  padding-bottom: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+

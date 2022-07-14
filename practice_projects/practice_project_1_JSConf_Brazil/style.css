@@ -1,0 +1,182 @@
+@import url("reset.css");
+
+html {
+  font: 24px 'Open Sans', Arial, sans-serif;
+  color: #45494d;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+article {
+  margin-top: 100px;
+}
+
+#navigation,
+article {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+article * {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+#navigation li {
+  padding: 15px 30px;
+  font-size: 10px;
+
+}
+
+#navigation a {
+  text-decoration: none;
+  color: #45494d;
+}
+
+#navigation a:hover {
+  text-decoration: underline;
+}
+
+
+header figure {
+  background-image: url(source/front.jpg);
+  background-position: center;
+  padding-top: 130px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 70px;
+  flex-basis: 100%;
+  color: white;
+}
+
+h1,
+h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+header figure * {
+  flex-basis: 100%;
+}
+
+header figure img {
+  flex-basis: auto;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 48px;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+button {
+  flex-basis: auto;
+}
+
+#speakers ul {
+  max-width: 960px;
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul#speakers * {
+  flex-basis: auto;
+}
+
+ul#speakers li figure {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#speakers li p {
+  width: auto;
+}
+
+#speakers li figcaption {
+  color: green;
+  width: 280px;
+}
+
+#speakers li figure,
+#speakers li p {
+  width: 280px;
+}
+
+#speakers li p {
+  font-size: 12px;
+}
+
+#speakers li {
+  flex-basis: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 280px;
+  margin: 10px;
+}
+
+#schedule ul {
+  max-width: 960px;
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+#schedule ul li {
+  flex-basis: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 80px 1fr;
+  grid-template-areas:
+    "picture time"
+    "details details";
+    border-top: solid 1px gray;
+}
+
+#schedule ul li:last-of-type {
+border-bottom: solid 1px gray;
+}
+.time {
+  grid-area: time;
+}
+
+.details {
+  grid-area: details;
+}
+
+.picture {
+  grid-area: picture;
+}
+
+.picture img {
+  width: 80px;
+}
+
+.details p {
+  text-align: left;
+}
+
